@@ -23,4 +23,4 @@ htmlfilename = inputcsvname[0:-3] + "html"
 
 #This creates a new file with the new file name and adds the content
 newfile = open(htmlfilename,"w+")
-newfile.write(htmltop + htmlversionidadded + htmlbottom)
+newfile.write(htmltop.read() + htmlversionidadded + htmlbottom.read())
