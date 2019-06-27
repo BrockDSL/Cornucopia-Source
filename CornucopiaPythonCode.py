@@ -1,5 +1,7 @@
 import pandas
 
+#put you csv file into the directory
+#make sure that the files "html_top.html" and "html_bottom.html" are in the directory as well
 #Input the name of your csv file as the argument for the function
 
 def csv_to_web_table_converter(inputcsvname):
