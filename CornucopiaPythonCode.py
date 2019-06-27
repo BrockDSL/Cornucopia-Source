@@ -29,4 +29,4 @@ def csv_to_web_table_converter(inputcsvname):
 	
 	
 if __name__ == '__main__':
-    csv_to_web_table_converter("small-01.csv")
+    csv_to_web_table_converter("YOUR_CSV_NAME_HERE.csv")
